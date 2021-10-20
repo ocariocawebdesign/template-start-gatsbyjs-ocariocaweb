@@ -1,0 +1,82 @@
+
+header{
+    padding: 2rem;
+    border:0.5px solid rgb(235, 229, 229);
+}
+
+header h3{
+
+    background-image: linear-gradient(to right, #d065eb,#440055, #200a25, #440055 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+main{
+
+    padding: 2rem;
+}
+.box-1 {
+   
+    align-items: center;
+    color: #FFF;
+    cursor: pointer;
+    padding: 3rem;
+    border-radius:3px;
+    opacity: 0.8;
+    
+
+}
+
+.elementExample_first {
+
+
+   
+    background-color: rgb(101, 25, 172);
+    position: relative;
+    top: 5rem;
+    left: 10%;
+   
+  
+}
+
+
+.box-2 {
+    border-radius: 3px;
+    padding: 1rem;
+    margin-right: 4rem;
+  
+
+}
+
+
+.elementExample_last {
+   
+    background-color: rgb(207, 132, 45);
+    /*background-image: url("../img/monster.png");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    position: relative; /* Adicionamos essa linha */
+   
+    right: 2px;
+
+}
+
+#conteudo-1{
+
+    width:100%;
+    height:auto;
+    margin-bottom: 4rem;
+
+}
+
+
+
+footer{
+
+    width:100%;
+    background:#333;
+    padding: 2rem;
+   
+
+}

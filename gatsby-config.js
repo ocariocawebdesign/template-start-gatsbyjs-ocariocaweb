@@ -3,27 +3,49 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
- module.exports = {
+module.exports = {
   siteMetadata: {
     title: 'Site Gatsby O Carioca',
-    siteUrl:'https://www.ocariocaweb.com',
-    description:'Site de desenvolvimento Carioca Web',
+    siteUrl: 'https://www.ocariocaweb.com',
+    description: 'Site de desenvolvimento Carioca Web',
 
     social: [{
-      name:'github',
-      url:'https://github.com/ocariocawebdesign',
-    },
-    {
-      nome:'linkedin',
-      url:'https://www.linkedin.com/in/ocariocawebdesign/',
-    },
-  
-  ],
-   
+        name: 'github',
+        url: 'https://github.com/ocariocawebdesign',
+      },
+      {
+        nome: 'linkedin',
+        url: 'https://www.linkedin.com/in/ocariocawebdesign/',
+      },
+
+    ],
+
   },
   plugins: [
 
     `gatsby-plugin-react-helmet`,
+
+    `gatsby-plugin-sitemap`,
+
+    /*{
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name:'O Carioca Web',
+        short_name:'O Carioca Web',
+        background_color:'#fff',
+        theme_color:`#440055`,
+        // Setting a color is optional.
+       display:'standalone',
+       icon:'src/img/monster.png',
+        // Disable the loading spinner.
+        showSpinner: false,
+      },
+    },
+*/
+    //-------------
+
+    //-----------
+
 
     {
       resolve: `gatsby-plugin-nprogress`,
@@ -32,10 +54,35 @@
         color: `tomato`,
         // Disable the loading spinner.
         showSpinner: false,
+
       },
     },
 
-    //--------
+
+    //-----------
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+
+        //displayName: process.env.NODE_ENV == 'production' ? true : false, 
+      },
+    },
+
+    //-----------
+
+
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.example.com`,
+      },
+    },
+
+    //-----------
+
+    //-----------
+
 
 
     {
@@ -72,11 +119,11 @@
 
     /*-----------------------------------*/
 
-  
 
-    /*-----------------------------*/ 
 
-   // `gatsby-plugin-offline`,
+    /*-----------------------------*/
+
+    // `gatsby-plugin-offline`,
 
 
   ]
