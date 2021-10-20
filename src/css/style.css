@@ -1,4 +1,9 @@
 
+body{
+
+    background-color: #FAFAFA;
+}
+
 header{
     padding: 2rem;
     border:0.5px solid rgb(235, 229, 229);
@@ -18,7 +23,7 @@ main{
 }
 .box-1 {
    
-    align-items: center;
+    
     color: #FFF;
     cursor: pointer;
     padding: 3rem;
@@ -49,6 +54,29 @@ main{
 
 }
 
+.box-3 {
+   
+  
+    
+    cursor: pointer;
+    padding: 3rem;
+    border-radius:3px;
+    opacity: 0.6;
+
+}
+
+
+.box-4 {
+   
+    align-items: center;
+    color: #FFF;
+    cursor: pointer;
+    padding: 3rem;
+    border-radius:3px;
+   
+    
+}
+
 
 .elementExample_last {
    
@@ -57,12 +85,33 @@ main{
     background-repeat: no-repeat;
     background-size: cover;*/
     position: relative; /* Adicionamos essa linha */
-   
+    opacity: 0.6;
     right: 2px;
 
 }
 
+.elementExample_last_2 {
+   
+    background-color: rgb(207, 132, 45);
+    /*background-image: url("../img/monster.png");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    position: relative; /* Adicionamos essa linha */
+    opacity: 0.8;
+    right: 2px;
+    bottom: 20%;
+
+}
+
 #conteudo-1{
+
+    width:100%;
+    height:auto;
+    margin-bottom: 4rem;
+
+}
+
+#conteudo-2{
 
     width:100%;
     height:auto;
