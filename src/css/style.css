@@ -1,131 +1,127 @@
-
-body{
-
-    background-color: #FAFAFA;
+body {
+  background-color: #fafafa;
 }
 
-header{
-    padding: 2rem;
-    border:0.5px solid rgb(235, 229, 229);
+header {
+  padding: 2rem;
+  border: 0.5px solid rgb(235, 229, 229);
 }
 
-header h3{
-
-    background-image: linear-gradient(to right, #d065eb,#440055, #200a25, #440055 );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+header h3 {
+  background-image: linear-gradient(
+    to right,
+    #d065eb,
+    #440055,
+    #200a25,
+    #440055
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
-main{
-
-    padding: 2rem;
+main {
+  padding: 2rem;
 }
 .box-1 {
-   
-    
-    color: #FFF;
-    cursor: pointer;
-    padding: 3rem;
-    border-radius:3px;
-    opacity: 0.8;
-    
-
+  color: #fff;
+  cursor: pointer;
+  padding: 3rem;
+  border-radius: 3px;
+  opacity: 0.8;
 }
 
 .elementExample_first {
-
-
-   
-    background-color: rgb(101, 25, 172);
-    position: relative;
-    top: 5rem;
-    left: 10%;
-   
-  
+  background-color: rgb(101, 25, 172);
+  position: relative;
+  top: 5rem;
+  left: 10%;
 }
 
-
 .box-2 {
-    border-radius: 3px;
-    padding: 1rem;
-    margin-right: 4rem;
-  
-
+  border-radius: 3px;
+  padding: 1rem;
+  margin-right: 4rem;
 }
 
 .box-3 {
-   
-  
-    
-    cursor: pointer;
-    padding: 3rem;
-    border-radius:3px;
-    opacity: 0.6;
-
+  cursor: pointer;
+  padding: 3rem;
+  border-radius: 3px;
+  opacity: 0.6;
 }
-
 
 .box-4 {
-   
-    align-items: center;
-    color: #FFF;
-    cursor: pointer;
-    padding: 3rem;
-    border-radius:3px;
-   
-    
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  padding: 3rem;
+  border-radius: 3px;
 }
 
-
 .elementExample_last {
-   
-    background-color: rgb(207, 132, 45);
-    /*background-image: url("../img/monster.png");
+  background-color: rgb(207, 132, 45);
+  /*background-image: url("../img/monster.png");
     background-repeat: no-repeat;
     background-size: cover;*/
-    position: relative; /* Adicionamos essa linha */
-    opacity: 0.6;
-    right: 2px;
-
+  position: relative; /* Adicionamos essa linha */
+  opacity: 0.6;
+  right: 2px;
 }
 
 .elementExample_last_2 {
-   
-    background-color: rgb(207, 132, 45);
-    /*background-image: url("../img/monster.png");
+  background-color: rgb(207, 132, 45);
+  /*background-image: url("../img/monster.png");
     background-repeat: no-repeat;
     background-size: cover;*/
-    position: relative; /* Adicionamos essa linha */
-    opacity: 0.8;
-    right: 2px;
-    bottom: 20%;
-
+  position: relative; /* Adicionamos essa linha */
+  opacity: 0.8;
+  right: 2px;
+  bottom: 20%;
 }
 
-#conteudo-1{
-
-    width:100%;
-    height:auto;
-    margin-bottom: 4rem;
-
+#conteudo-1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 4rem;
 }
 
-#conteudo-2{
+#conteudo-2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 4rem;
+}
 
-    width:100%;
-    height:auto;
-    margin-bottom: 4rem;
+footer {
+  width: 100%;
+  display: flex;
+  width: 100%;
+  background: #333;
+  padding: 2rem;
+  color: #fafafa;
+  padding: 2rem;
+}
 
+#box-footer-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #fafafa 1px solid;
+  padding: 2rem;
+}
+
+#box-footer-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #fafafa 1px solid;
+  padding: 2rem;
 }
 
 
-
-footer{
-
-    width:100%;
-    background:#333;
-    padding: 2rem;
-   
-
+.lightwidget-widget{
+    width: 100%!important;
+    height: auto;
+    border:0!important;
+    overflow: hidden;
 }

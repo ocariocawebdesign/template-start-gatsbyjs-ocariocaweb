@@ -5,47 +5,44 @@
  */
 module.exports = {
   siteMetadata: {
-    title: 'Site Gatsby O Carioca',
-    siteUrl: 'https://www.ocariocaweb.com',
-    description: 'Site de desenvolvimento Carioca Web',
+    title: "Site Gatsby O Carioca",
+    siteUrl: "https://www.ocariocaweb.com",
+    description: "Site de desenvolvimento Carioca Web",
 
-    social: [{
-        name: 'github',
-        url: 'https://github.com/ocariocawebdesign',
+    social: [
+      {
+        name: "github",
+        url: "https://github.com/ocariocawebdesign",
       },
       {
-        nome: 'linkedin',
-        url: 'https://www.linkedin.com/in/ocariocawebdesign/',
+        nome: "linkedin",
+        url: "https://www.linkedin.com/in/ocariocawebdesign/",
       },
-
     ],
-
   },
   plugins: [
-
     `gatsby-plugin-react-helmet`,
 
     `gatsby-plugin-sitemap`,
 
-    /*{
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name:'O Carioca Web',
-        short_name:'O Carioca Web',
-        background_color:'#fff',
-        theme_color:`#440055`,
+        name: "O Carioca Web",
+        short_name: "O Carioca Web",
+        background_color: "#fff",
+        theme_color: `#440055`,
         // Setting a color is optional.
-       display:'standalone',
-       icon:'src/img/monster.png',
+        display: "standalone",
+        icon: "src/img/monster.png",
         // Disable the loading spinner.
         showSpinner: false,
       },
     },
-*/
+
     //-------------
 
     //-----------
-
 
     {
       resolve: `gatsby-plugin-nprogress`,
@@ -54,23 +51,19 @@ module.exports = {
         color: `tomato`,
         // Disable the loading spinner.
         showSpinner: false,
-
       },
     },
-
 
     //-----------
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
         // Add any options here
-
-        //displayName: process.env.NODE_ENV == 'production' ? true : false, 
+        //displayName: process.env.NODE_ENV == 'production' ? true : false,
       },
     },
 
     //-----------
-
 
     {
       resolve: `gatsby-plugin-canonical-urls`,
@@ -83,25 +76,18 @@ module.exports = {
 
     //-----------
 
-
-
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
         trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
-
       },
     },
 
     /*-----------------------------------*/
 
-
-
     /*-----------------------------*/
 
-    // `gatsby-plugin-offline`,
-
-
-  ]
+    `gatsby-plugin-offline`,
+  ],
 }
